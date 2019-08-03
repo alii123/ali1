@@ -1,0 +1,208 @@
+*{
+
+	margin: 0;
+	padding: 0;
+}
+.row{
+	
+	margin: 0 auto;
+	
+	
+}
+.hj{
+
+	background-color: black;
+}
+
+
+body{
+
+	font-family: tahoma;
+
+}
+.hero
+{ 
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/hero.jpg);  
+	height: 400px;
+	background-position: center;
+	background-size: 1400px 1000px;
+
+}
+.salman{
+
+	color: white;
+	margin-left: 30px;
+	padding-top: 5%;
+
+}
+
+
+.main-nav{
+	list-style: none;
+	float: right;
+	margin-top: 0px;
+}
+.main-nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border:1px solid #e7e7e7;
+	background-color: #f3f3f3;
+}
+.main-nav li{
+	display: inline-block;
+	margin-left: 20px;
+	margin-right:20px;
+}
+.main-nav li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+.main-nav li a:hover:not(active){
+	background-color: #ddd;
+}
+
+.button-awesome{
+	border: 10px ;
+	padding: 10px 30px;
+	text-decoration: none;
+	border-radius: 12px;
+	margin-right: 20px;
+	margin-top: 100px;
+
+}
+.button-awesome a:hover{
+	color: #e67e22;
+	list-style: none;
+	border: 10px;
+
+}
+#ali{
+	color: #e67e22;
+	list-style: none;
+	border: 10px;
+
+
+}
+.copy{
+
+	width: 70%;
+	margin-left: 15%;
+}
+
+
+.features h3 {
+
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+.arranging{
+
+	text-align: justify;
+
+	}
+
+.meal-showcase{
+
+	list-style: none;
+	width: 100%;
+}
+.meal-showcase li{
+
+	display: block;
+	width: 25%;
+	float:left;
+}
+.meal-photo{
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+.meal-photo img
+{
+
+	width: 100%;
+	height: auto;
+	transform: scale(1.15);
+	transition: all 0.5s;
+}
+.meal-photo img:hover{
+
+	transform: scale(1.05);
+}
+.meal{
+
+	margin-top: 5%;
+}
+
+.mobile h3 {
+
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+.pic img{
+
+width: 60%;
+margin-left: 90px;
+margin-top: 5%;
+}
+.works-step {
+	margin-top: 5%;
+}
+.works-step div{
+
+	border: 1px solid #e67e22;
+	display: inline-block;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+/*.cities{
+
+	margin: 20px;
+}
+*/
+.cities img {
+
+width: 100%;
+margin-top: 20%;
+
+}
+
+.footer{
+	width: 100%;
+	background-color: #222;
+	padding: 60px;
+	margin-top: 5%;
+}
+.TESTIMONIALS{
+
+	margin-top: 80px;
+	padding-bottom: 80px;
+
+}
+
+.TESTIMONIALS p{
+
+	margin-top: 30px;
+	text-align: justify;
+}
+.TESTIMONIALS cite img {
+
+width: 70px;
+height: 70px;
+border-radius: 70%;
+
+}
+.btn-block{
+
+	margin-top: 20px;
+	padding-right: 50px;
+}
